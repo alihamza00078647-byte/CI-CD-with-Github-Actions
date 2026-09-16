@@ -12,9 +12,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: 
-        run: | 
-          echo "This is CI/CD Pipeline"
-          uname -a
+        run: |
+         echo "This is CI/CD Pipeline"
+         uname -a
             
 
 
