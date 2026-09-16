@@ -11,11 +11,32 @@ jobs:
       steps:
         - uses: actions/checkout@v4
 
-        - name: 
+        - name: Initialize Repo
           run: |
-           echo "This is CI/CD Pipeline"
+           echo ""
            uname -a
+        - name: Check Docker Installation
+          run: |
+           docker
+           docker images
+
+        - name: Run docker Container
+          run: |
+            docker run hello-world
+
+           
             
 
-
       
+
+
+
+
+
+
+
+
+
+
+
+
